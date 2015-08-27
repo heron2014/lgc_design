@@ -1,38 +1,31 @@
 body {
-  padding-top: 50px;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
+
 
 /*strapline*/
 #strapline {
   padding: 10px 15px;
   text-align: center;
 }
-ul {
-  list-style-type: none;
-}
+
 /*strapline*/
 
-
-iframe {
-    width: 520px;
-    height: 315px;
-    margin: 0 auto;
-    margin: 20px;
-}
-
-
-
-.navbar-btn {
+.navbar-btn, .create-btn {
   background-color: #3ba933;
   margin-right: 20px;
   color: #fff;
 }
-.navbar-btn:hover {
+.navbar-btn:hover, .create-btn:hover {
   background-color: #298622;
   color: #fff;
 }
-
-
+.create-btn {
+    margin: 20px auto;
+    padding: 10px 40px;
+}
 
 /******** Logo section *********/
 .logo-section{
@@ -54,12 +47,22 @@ iframe {
 }
 /******** End Logo section *********/
 
+/******** Footer section *********/
 
+footer {
+    background-color: lightgrey;
+}
+.copyright p {
+    padding-top: 10px;
+}
+/******** End Footer section *********/
 
 @media(max-width:360px){
 
-    iframe {
-        width: 400px;
-        
+    #logo {
+        background: url('./img/logo-mobile.png') no-repeat;
+        width: 109px;
+        height: 109px;
+
     }
 }
