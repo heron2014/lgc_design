@@ -17,10 +17,16 @@ body {
   background-color: #3ba933;
   margin-right: 20px;
   color: #fff;
+  border: none;
 }
-.navbar-btn:hover, .create-btn:hover {
+.navbar-btn:hover, .create-btn:hover, .btn-home:hover {
   background-color: #298622;
   color: #fff;
+}
+.btn-home {
+    background-color: #3ba933;
+    margin-left: 20px;
+    color: #fff;
 }
 .create-btn {
     margin: 20px auto;
@@ -56,6 +62,39 @@ footer {
     padding-top: 10px;
 }
 /******** End Footer section *********/
+
+
+/******** Campaign page *********/
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+.dropdown {
+    text-align: center;
+    color: #9C9898;
+}
+.dropdown-menu {
+    min-width: 125px;
+}
+.gender {
+    min-width: 104px;
+}
+/******** End Campaign page *********/
+
+
 
 @media(max-width:360px){
 
