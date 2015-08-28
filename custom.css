@@ -1,10 +1,25 @@
+/*html,body{*/
+    /*height: 100%*/
+/*}*/
 body {
     padding-top: 50px;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
-
-
+/*footer*/
+/*{*/
+    /*position: relative;*/
+    /*margin-top: -250px; /!* negative value of footer height *!/*/
+    /*height: 50px;*/
+    /*clear:both;*/
+    /*padding-top:20px;*/
+    /*color:#fff;*/
+/*}*/
+/*#form-area*/
+/*{*/
+    /*overflow:auto;*/
+    /*padding-bottom:250px; /!* this needs to be bigger than footer height*!/*/
+/*}*/
 /*strapline*/
 #strapline {
   padding: 10px 15px;
@@ -19,7 +34,7 @@ body {
   color: #fff;
   border: none;
 }
-.navbar-btn:hover, .create-btn:hover, .btn-home:hover {
+.navbar-btn:hover, .create-btn:hover, .btn-home:hover, .start_campaign:hover {
   background-color: #298622;
   color: #fff;
 }
@@ -32,7 +47,11 @@ body {
     margin: 20px auto;
     padding: 10px 40px;
 }
-
+.start_campaign {
+    background-color: #3ba933;
+    color: #fff;
+    border: none;
+}
 /******** Logo section *********/
 .logo-section{
     background-color: #fff;
